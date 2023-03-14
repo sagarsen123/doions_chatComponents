@@ -1,0 +1,96 @@
+/* outDiv Continer */
+/* ----------------------------------------------- */
+
+.outDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+
+/*  imgClass */
+/* ----------------------------------------------- */
+.ImgBox {
+  display: inline-flex;
+  margin: 0px;
+  padding: 0.2rem;
+ 
+  display: inline-flex;
+  position: relative;
+  border-radius: 50%;
+}
+
+.Img_Click {
+  display: inline-flex;
+  margin: 0px;
+  padding: 0.2rem;
+  height: auto;
+  border: 0px solid red;
+  transition: 0.2s ease;
+  border-radius: 50%;
+  position: relative;
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+/* notClass */
+/* ------------------------------------------------ */
+.notification {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  clear: both;
+  height: 0.5rem;
+  width: 0.5rem;
+  top: 0.3rem;
+  font-weight: bold;
+  text-align: center;
+  left: 0.2rem;
+  font-size: 0.6rem;
+  padding: 0.3rem;
+  border-radius: 55%;
+  background: red;
+  color: white;
+  z-index: 10;
+}
+
+.notPop {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  height: 0.5rem;
+  width: 0.5rem;
+  top: 0.3rem;
+  font-weight: bold;
+  text-align: center;
+  left: 0.2rem;
+  font-size: 0.7rem;
+  padding: 0.3rem;
+  border-radius: 55%;
+  background: red;
+  color: white;
+  transition: 0.2s ease;
+  z-index: 10;
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+/* Class For Image */
+/* ------------------------------------------------ */
+.ImgClass {
+  height: 1.5rem;
+  width: 1.4rem;
+  transition: 0.3s ease;
+  position: relative;
+}
+.ImgClass:hover {
+  height: 1.9rem;
+  width: 1.8rem;
+  transition: 0.3s ease;
+}
+
+/* ------------------------------------------------ */

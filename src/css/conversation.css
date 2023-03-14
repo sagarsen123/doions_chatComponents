@@ -1,0 +1,30 @@
+.conversation{
+    height: 100%;
+    width: 100%;
+    
+}
+.messageBox{
+    height: 90%;
+    border: 1px solid white;
+}
+
+.sendmess{
+    height: 8%;
+    bottom: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.sendButton{
+    margin: .8rem;
+}
+
+.textmess{
+    margin: .8rem;
+}
+
+

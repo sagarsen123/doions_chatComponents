@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./App.css";
+import ChatBox from "./Components/ChatBox";
+import TopHead from "./Components/TopHead";
+import { useState } from "react";
+
+
 
 function App() {
+
+  const [headContent,setHeaderContent] = useState("Hello User");
+  const upDateHeadText = (headText) =>{
+    console.log("Hello User")
+     setHeaderContent(headText);
+  }
+  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TopHead headContent={headContent} />
+      <ChatBox upDateHeadText={upDateHeadText}/>
+      
     </div>
   );
 }

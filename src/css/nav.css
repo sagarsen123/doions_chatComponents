@@ -1,0 +1,11 @@
+.topHead {
+  text-align: center;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(33, 46, 46);
+  color: white;
+}

@@ -1,0 +1,63 @@
+
+.userContainer{
+    height: 5rem;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    background-color: cornflowerblue;
+    border: 2px solid white;
+    margin: 0.1rem;
+    border-radius: 5px;
+    box-shadow: 2px 0 2px grey,0 2px 2px grey;
+}
+
+.imageContainer{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgClass{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: .2rem;
+
+}
+
+.senderDetails{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.senderName{
+    text-align: left;
+    padding: .4rem;
+    height: 50%;
+}
+
+.senderMessDetails{
+    display: flex;
+    flex-direction: row;
+}
+
+.senderLastMess{
+    width: 80%;
+    text-align: left;
+    padding: .4rem;
+}
+
+.messIcon{
+    width: 20%;
+}
+
+
+
+
+
+
+
