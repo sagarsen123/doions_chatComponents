@@ -6,12 +6,13 @@ import img from "../images/userDp.png";
 export default function ChatBox(props) {
   const [userSList, updateUserList] = useState([]);
   const [Conversations,setConversation] = useState(userSList);
-  let senderName = "Rohan Roy";
-  let senderLastMess ="How Are You?";
+  
 
   const updateList = () =>{
     console.log("in");
-    updateUserList(p => [<UserBox Img={img} upDateHeadText={props.upDateHeadText} setConversation={convHandler} senderName={senderName} senderLastMess={senderLastMess}/>,...p ]);
+    let senderName = "Rohan Roy";
+  let senderLastMess ="How Are You?";
+    updateUserList([<UserBox Img={img} upDateHeadText={props.upDateHeadText} setConversation={convHandler} senderName={senderName} senderLastMess={senderLastMess}/>, ...userSList ]);
     setConversation(userSList);
   }
 
@@ -24,7 +25,6 @@ export default function ChatBox(props) {
   return (
     <>
       <div className="ChatBox" >{Conversations}</div>
-
       <button className="btn btn-primary" onClick={updateList}>Add User</button>
     </>
   );
